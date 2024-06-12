@@ -1,0 +1,30 @@
+.maincontainer {
+    @include flexBox(column, center, center, unset);
+    background-color: $Dark_cyan;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0;
+  
+    .background-svg-top-left {
+      position: absolute;
+      top: -60rem;
+      right: 15rem;
+  
+      @media (min-width: 767px) {
+        top: -60rem;
+        right: 65rem;
+      }
+    }
+  
+    .background-svg-bottom-right {
+      position: absolute;
+      bottom: -60rem;
+      left: 14rem;
+  
+      @media (min-width: 767px) {
+        bottom: -70rem;
+        left: 60rem;
+      }
+    }
+  }

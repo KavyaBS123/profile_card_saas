@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.maincontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: unset;
+  background-color: #19a2ae;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.maincontainer .background-svg-top-left {
+  position: absolute;
+  top: -60rem;
+  right: 15rem;
+}
+
+@media (min-width: 767px) {
+  .maincontainer .background-svg-top-left {
+    top: -60rem;
+    right: 65rem;
+  }
+}
+
+.maincontainer .background-svg-bottom-right {
+  position: absolute;
+  bottom: -60rem;
+  left: 14rem;
+}
+
+@media (min-width: 767px) {
+  .maincontainer .background-svg-bottom-right {
+    bottom: -70rem;
+    left: 60rem;
+  }
+}
+
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  gap: unset;
+  min-width: 33rem;
+  background-color: #ffffff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 2rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  position: relative;
+}
+
+.card-wrapper .img-card .card-svg {
+  border-radius: 2rem 2rem 0 0;
+  width: 100%;
+}
+
+.card-wrapper .img-card .profile-pic {
+  position: absolute;
+  border-radius: 5rem;
+  position: absolute;
+  left: 11.7rem;
+  top: 8.5rem;
+  border: 6px solid white;
+}
+
+.card-wrapper .line {
+  height: 1px;
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.card-wrapper .stats-card {
+  margin-top: 7rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #2d3248;
+}
+
+.card-wrapper .stats-card .name-age-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: unset;
+  -webkit-box-direction: unset;
+      -ms-flex-direction: unset;
+          flex-direction: unset;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  gap: 1rem;
+}
+
+.card-wrapper .stats-card p {
+  color: #6a6f81;
+  padding: 0.3rem 0 0.7rem 0;
+}
+
+.card-wrapper .stats-card .stats-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: unset;
+  padding: 2.5rem;
+}
+
+.card-wrapper .stats-card .stats-box .stats .stats-headings {
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 0.3rem;
+}
+
+.card-wrapper .stats-card .stats-box .stats .stats-descrption {
+  letter-spacing: 0.1rem;
+  line-height: 1.6rem;
+}
+
+.footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: fixed;
+  color: #f9fcff;
+  font-size: 1.7rem;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer .footer-link {
+  color: #2b3631;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=index.css.map */

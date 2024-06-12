@@ -1,0 +1,67 @@
+.card-wrapper {
+    @include flexBox(column, unset, unset, unset);
+    min-width: 33rem;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    position: relative;
+  
+    .img-card {
+      .card-svg {
+        border-radius: 2rem 2rem 0 0;
+        width: 100%;
+      }
+  
+      .profile-pic {
+        position: absolute;
+        border-radius: 5rem;
+        position: absolute;
+        left: 11.7rem;
+        top: 8.5rem;
+        border: 6px solid white;
+      }
+    }
+  
+    .line {
+      height: 1px;
+      border: none;
+      background-color: $light_gray;
+    }
+  
+    .stats-card {
+      margin-top: 7rem;
+      text-align: center;
+      font-size: $text_size_1;
+      font-family: "Kumbh Sans", sans-serif;
+      color: $Very_dark_desaturated_blue;
+  
+      .name-age-heading {
+        @include flexBox(unset, center, unset, 1rem);
+      }
+  
+      p {
+        color: $Dark_grayish_blue;
+        padding: 0.3rem 0 0.7rem 0;
+      }
+  
+      .stats-box {
+        @include flexBox(row, space-around, center, unset);
+        padding: 2.5rem;
+  
+        .stats {
+          .stats-headings {
+            text-align: center;
+            justify-content: space-around;
+            margin-bottom: 0.3rem;
+          }
+  
+          .stats-descrption {
+            letter-spacing: 0.1rem;
+            line-height: 1.6rem;
+          }
+        }
+      }
+    }
+  }
